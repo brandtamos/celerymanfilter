@@ -1,0 +1,24 @@
+<script src="thirdParty/jquery-2.1.4.min.js"></script>
+<script src="popup.js"></script>
+<style>
+textarea.keyword-input {
+	width: 200px;
+	height: 400px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+#saveConfirm{
+	display: none;
+}
+#saveKeywords{
+	margin-top: 5px;
+	width: 100%;
+}
+</style>
+<h3>Filter to Celery Man</h3>
+<p>Enter each keyword separated by a new line. Any post that contains any of the keywords listed will
+	be replaced with Celery Man</p>
+<textarea class="keyword-input" id="filterKeywords"></textarea>
+<button id="saveKeywords">Save</button>
+<div id="saveConfirm">Changes saved. You will need to refresh the page for changes to take effect</div>
