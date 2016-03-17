@@ -1,6 +1,6 @@
 {
     "name": "Celery Man Filter",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "manifest_version": 2,
     "browser_action": {
         "default_title": "Click Here",
